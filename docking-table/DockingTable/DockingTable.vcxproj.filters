@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="IO">
+      <UniqueIdentifier>{a31a116d-ea91-4f27-9a65-de7c0a02055a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{cb795138-f1e4-4791-9b46-3043231f9ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kmeans">
+      <UniqueIdentifier>{9bedfee2-c5b1-4c1d-adeb-19acaa024968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{77c06ea3-8e8f-4984-acff-9676914e35f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exception">
+      <UniqueIdentifier>{5f3bf224-1d9c-4187-b677-98c4366efeb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QuickSort">
+      <UniqueIdentifier>{7f261a89-3c80-4c0b-983c-7c3dfbd11ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateTab">
+      <UniqueIdentifier>{7f51233f-361f-4ca5-9502-25935954a444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dll">
+      <UniqueIdentifier>{4d1a0cb3-4f97-4757-a0be-d2f3b469abaf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\IO\IO.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Settings.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Kmeans\Kmeans.h">
+      <Filter>Kmeans</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Command\command.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Exception\Exception.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QuickSort\QuickSort.h">
+      <Filter>QuickSort</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CreateTab\CreateTab.h">
+      <Filter>CreateTab</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\dll.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IO\IO.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Kmeans\Kmeans.cpp">
+      <Filter>Kmeans</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Command\command.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Exception\Exception.cpp">
+      <Filter>Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QuickSort\QuickSort.cpp">
+      <Filter>QuickSort</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CreateTab\CreateTab.cpp">
+      <Filter>CreateTab</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\dll.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

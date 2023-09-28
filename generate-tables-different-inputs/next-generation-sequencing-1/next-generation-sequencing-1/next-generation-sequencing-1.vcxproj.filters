@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{47d81707-1ae0-4c8a-a46d-bcf0df5d208d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sliding matching">
+      <UniqueIdentifier>{5487f026-fb9f-48c0-898f-06060080e644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bplus">
+      <UniqueIdentifier>{bdeafce0-095d-4af1-9b68-cc0b9a58f385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="error handling">
+      <UniqueIdentifier>{d1e5764f-80c2-4725-b3f5-c04428dcb058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{739d9c29-13b3-4416-9786-de72171feb3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\id-wash">
+      <UniqueIdentifier>{72b33eb7-a20d-46c4-b5a3-a76e31ca44b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\Bplus">
+      <UniqueIdentifier>{e850310f-fcd2-4c2d-bde0-212606aa80d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\EigenMatrix">
+      <UniqueIdentifier>{2519298b-1666-4002-a5c5-7b72b31b58f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EigenMatrix">
+      <UniqueIdentifier>{ce08c753-28d3-4fb1-83d1-3c694bc3ceeb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sliding-matching\Sliding-matching.cpp">
+      <Filter>Sliding matching</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bplus\Bplus.cpp">
+      <Filter>Bplus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\error-handling\error-handling.cpp">
+      <Filter>error handling</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ID-washing\ID-wash.cpp">
+      <Filter>lib\id-wash</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\mem-Bplus\memBplus.cpp">
+      <Filter>lib\Bplus</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\EigenMatrix\src\ComputingCore.cpp">
+      <Filter>lib\EigenMatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\EigenMatrix\src\IO.cpp">
+      <Filter>lib\EigenMatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\EigenMatrix\m.cpp">
+      <Filter>lib\EigenMatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\EigenMatrix\src\SequenceUnit.cpp">
+      <Filter>lib\EigenMatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EigenMatrix\EigenMatrix.cpp">
+      <Filter>EigenMatrix</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main-settings.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sliding-matching\Sliding-matching.h">
+      <Filter>Sliding matching</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Bplus\Bplus.h">
+      <Filter>Bplus</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sliding-matching\settings.h">
+      <Filter>Sliding matching</Filter>
+    </ClInclude>
+    <ClInclude Include="include\include.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\error-handling\error-handling.h">
+      <Filter>error handling</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="lib\mem-Bplus\memBplus.h">
+      <Filter>lib\Bplus</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ID-washing\ID-wash.h">
+      <Filter>lib\id-wash</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\EigenMatrix\include\ComputingCore.H">
+      <Filter>lib\EigenMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\EigenMatrix\include\IO.h">
+      <Filter>lib\EigenMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\EigenMatrix\include\SequenceUnit.h">
+      <Filter>lib\EigenMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\EigenMatrix\include\settings.h">
+      <Filter>lib\EigenMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EigenMatrix\EigenMatrix.h">
+      <Filter>EigenMatrix</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="next-generation-sequencing-1.rc" />
+  </ItemGroup>
+</Project>

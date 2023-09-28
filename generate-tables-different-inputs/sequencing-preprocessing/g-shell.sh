@@ -1,0 +1,1 @@
+g++ ../src/main.cpp ../src/IO/IO.cpp  ../src/exception-handling/exception-handling.cpp ../src/class/sequencing/sequencing.cpp -o /mnt/g/Test/pre-seq/bin/Linux.o

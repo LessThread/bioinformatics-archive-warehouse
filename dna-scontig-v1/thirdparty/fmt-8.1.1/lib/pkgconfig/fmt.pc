@@ -1,0 +1,11 @@
+prefix=D:/service/project/dna-scontig/thirdparty/fmt-8.1.1
+exec_prefix=D:/service/project/dna-scontig/thirdparty/fmt-8.1.1
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: fmt
+Description: A modern formatting library
+Version: 8.1.1
+Libs: -L${libdir} -lfmt
+Cflags: -I${includedir}
+

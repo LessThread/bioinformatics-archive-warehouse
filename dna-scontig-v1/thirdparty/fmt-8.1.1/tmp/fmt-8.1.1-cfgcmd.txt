@@ -1,0 +1,1 @@
+cmd='cd;D:/service/project/dna-scontig/thirdparty/fmt-8.1.1/src/fmt-8.1.1-build;&&;E:/cmake/bin/cmake.exe;D:/service/project/dna-scontig/thirdparty/fmt-8.1.1/src/fmt-8.1.1;-DCMAKE_INSTALL_PREFIX=D:/service/project/dna-scontig/thirdparty/fmt-8.1.1;-DCMAKE_BUILD_TYPE=Release;-DBUILD_SHARED_LIBS=OFF;-DFMT_TEST=OFF;-DFMT_DOC=OFF'
